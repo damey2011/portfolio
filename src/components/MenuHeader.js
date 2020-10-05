@@ -43,7 +43,7 @@ const MenuHeader = () => {
     }
 
     return (
-        <div className="h-6 fixed top-0 bg-back-primary w-full flex justify-between text-writing-primary z-10">
+        <div className="h-12 md:h-6 fixed top-0 bg-back-primary w-full flex justify-between text-writing-primary z-10">
             <div className="flex items-center">
                 <span className="fas fa-terminal mx-5 text-lg"/>
                 <span className="current-program font-bold text-sm">{menuTitle}</span>
@@ -75,7 +75,7 @@ const MenuHeader = () => {
                 </div>
             </div>
             <div className="flex items-center">
-                <ul className="flex p-0 list-none h-full items-center hidden md:flex">
+                <ul className="flex p-0 list-none h-full items-center hidden lg:flex">
                     <li className="mx-2">
                         <span className="flex text-sm fas fa-wifi"/>
                     </li>
@@ -83,18 +83,18 @@ const MenuHeader = () => {
                         <span className="flex text-sm fas fa-battery-full"/>
                     </li>
                 </ul>
-                <span className="text-sm mx-2 hidden md:flex">
+                <span className="text-sm mx-2 hidden lg:flex">
                     {dayjs().format('HH:mm A')}
                 </span>
                 <span className="text-sm mx-2 it">
                     Damilola Nifemi Adeyemi
                 </span>
-                <ul className="flex p-0 list-none h-full items-center hidden md:flex">
+                <ul className="flex p-0 list-none h-full items-center">
                     <li className="mx-2 flex justify-center items-center">
                         <a className={`flex text-sm fas fa-2x mr-3 fa-toggle-${theme === 'dark' ? 'on' : 'off'}`} href="/" onClick={switchTheme}> </a>
                         <span>{theme === 'dark' ? 'Dark' : 'Light'}</span>
                     </li>
-                    <li className="mx-2">
+                    <li className="mx-2 hidden lg:flex">
                         <span className="flex text-sm fas fa-align-left"/>
                     </li>
                 </ul>

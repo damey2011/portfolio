@@ -8,7 +8,7 @@ const Browser = (props) => {
 
     return (
         <Window title={title} menuTitle="Resume">
-            <iframe width="100%" height="100%" className="min-h-1/2" src={page} frameBorder="0" title={title}/>
+            <iframe width="100%" height="100%" className="min-h-1/2 h-full" src={page} frameBorder="0" title={title}/>
         </Window>
     );
 };

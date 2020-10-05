@@ -18,6 +18,7 @@ module.exports = {
                 'text-blue-400',
                 'text-red-400',
             ],
+            variables: true
         }
     },
     target: 'relaxed',
