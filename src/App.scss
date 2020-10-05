@@ -1,0 +1,93 @@
+:root {
+  --text-color: #FFF;
+  --text-color-secondary: gray;
+  --background-color: black;
+  --background-color-secondary: #333333;
+}
+
+a {
+  &:hover {
+    cursor: default;
+  }
+}
+
+.program-menu {
+  a {
+    &:focus, &:hover {
+      background: var(--background-color-secondary);
+      color: var(--text-color);
+    }
+  }
+}
+
+.docker {
+  ul {
+    a {
+      transition: all .5s;
+
+      &:hover + a {
+        font-size: 2.2em;
+      }
+
+      &:hover {
+        font-size: 2.3em;
+      }
+    }
+  }
+}
+
+.window-top {
+  > a {
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    &:first-child {
+      &:hover {
+        &:before {
+          content: "\f00d";
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      &:hover {
+        &:before {
+          content: "-";
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      &:hover {
+        &:before {
+          content: "\f422";
+        }
+      }
+    }
+  }
+}
+
+.window {
+  border-top-width: .01rem;
+  position: absolute;
+  transition: all .5s ease-in-out;
+
+  &.full {
+    height: calc(100vh - 5.7rem);
+    width: 100vw;
+  }
+}
+
+
+.ant-modal-content, .ant-modal-header, .ant-modal-title, .ant-modal-footer {
+  background-color: var(--background-color-secondary);
+  color: var(--text-color);
+  border-color: var(--text-color-secondary);
+}
+
+.ant-modal-close {
+  color: var(--text-color-secondary);
+}

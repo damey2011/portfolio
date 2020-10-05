@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.dropdown-menu {
+  width: 18rem;
+  ul {
+    @apply bg-back-secondary;
+    li {
+      a {
+        padding: 0.2rem 1.5rem;
+        @apply text-writing-primary;
+        &:hover {
+          @apply bg-gray-500;
+        }
+      }
+    }
+  }
+}
