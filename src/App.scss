@@ -96,3 +96,9 @@ a {
 .ant-modal-close {
   color: var(--text-color-secondary);
 }
+
+.truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

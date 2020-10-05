@@ -15,7 +15,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="w-full p-4 flex items-center justify-end">
-                                <div className="w-1/2 text-white">
+                                <div className="w-1/2 text- white">
                                     <p className="text-3xl font-bold">Damilola Adeyemi</p>
                                     <p className="py-2">
                                         <i className="fas fa-map-marker-alt mr-2"/>

@@ -46,7 +46,9 @@ const MenuHeader = () => {
         <div className="h-12 md:h-6 fixed top-0 bg-back-primary w-full flex justify-between text-writing-primary z-10">
             <div className="flex items-center">
                 <span className="fas fa-terminal mx-5 text-lg"/>
-                <span className="current-program font-bold text-sm">{menuTitle}</span>
+                <span className="current-program font-bold text-sm truncate lg:max-w-full" style={{maxWidth: '100px'}}>
+                    {menuTitle}
+                </span>
                 <div className="program-menu ml-4">
                     <ul className="list-none p-0 flex items-center">
                         {
@@ -86,7 +88,7 @@ const MenuHeader = () => {
                 <span className="text-sm mx-2 hidden lg:flex">
                     {dayjs().format('HH:mm A')}
                 </span>
-                <span className="text-sm mx-2 it">
+                <span className="text-sm mx-2 truncate lg:max-w-full" style={{maxWidth: '150px'}} >
                     Damilola Nifemi Adeyemi
                 </span>
                 <ul className="flex p-0 list-none h-full items-center">
