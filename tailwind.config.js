@@ -3,12 +3,23 @@ module.exports = {
         // removeDeprecatedGapUtilities: true,
         // purgeLayersByDefault: true,
     },
-    purge: [
-        './src/**/*.html',
-        './src/**/*.vue',
-        './src/**/*.js',
-        './src/**/*.jsx',
-    ],
+    purge: {
+        content: [
+            './src/**/*.html',
+            './src/**/*.vue',
+            './src/**/*.js',
+            './src/**/*.jsx',
+        ],
+        options: {
+            whitelist: [
+                'text-orange-400',
+                'text-green-400',
+                'text-yellow-400',
+                'text-blue-400',
+                'text-red-400',
+            ],
+        }
+    },
     target: 'relaxed',
     prefix: '',
     important: false,
