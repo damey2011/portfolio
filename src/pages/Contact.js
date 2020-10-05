@@ -28,7 +28,7 @@ const Contact = () => {
                             <div className="flex flex-col w-1/2 h-full">
                                 <div className="flex flex-col">
                                     <p className="text-sm font-bold">
-                                        <a href="tel:+2348132998236" className="text-sm">
+                                        <a href="tel:+2348132998236" className="text-sm" style={{wordBreak: 'break-all'}}>
                                             +2348132998236
                                         </a>
                                     </p>
@@ -39,7 +39,7 @@ const Contact = () => {
                                 </div>
                                 <div className="flex flex-col mt-6">
                                     <p className="text-xl font-bold text-xs">
-                                        <a href="mailto:adeyemidamilola3@gmail.com" className="text-sm">
+                                        <a href="mailto:adeyemidamilola3@gmail.com" className="text-sm" style={{wordBreak: 'break-all'}}>
                                             adeyemidamilola3@gmail.com
                                         </a>
                                     </p>

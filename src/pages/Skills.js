@@ -47,7 +47,7 @@ const Skills = () => {
 
     return (
         <Window title="Skills" menuTitle="Skills">
-            <div className="flex justify-end p-4">
+            <div className="flex justify-end p-4 mt-8 md:mt-1">
                 <input
                     type="text"
                     onKeyUp={e => searchSkill(e)}
