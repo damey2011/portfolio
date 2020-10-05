@@ -38,11 +38,16 @@ a {
 
 .window-top {
   > a {
-    font-size: 9px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
+    overflow: hidden;
+    font-size: 16px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 9px;
+    }
 
     &:first-child {
       &:hover {
@@ -55,7 +60,7 @@ a {
     &:nth-child(2) {
       &:hover {
         &:before {
-          content: "-";
+          content: "\f068";
         }
       }
     }
