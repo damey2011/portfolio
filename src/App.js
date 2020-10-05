@@ -12,6 +12,7 @@ import {Route, Switch, useLocation} from 'react-router-dom';
 import {MenuProvider, ThemeProvider} from "./contexts";
 import {routes} from "./routes";
 import {animated, useTransition} from "react-spring";
+import {Helmet} from "react-helmet";
 
 const defaultColors = {
     'dark': {
@@ -59,6 +60,17 @@ function App() {
         <div className="relative min-h-screen">
             <ThemeProvider value={[theme, applyTheme]}>
                 <MenuProvider value={{menuTitle, setMenuTitle}}>
+                    <Helmet>
+                        <meta charSet="utf-8"/>
+                        <title>{menuTitle === 'Home' ? 'Damilola Adeyemi' : menuTitle}</title>
+                        <link rel="apple-touch-icon" sizes="180x180"
+                              href={require('./favicons/apple-touch-icon.png')}/>
+                        <link rel="icon" type="image/png" sizes="32x32"
+                              href={require('./favicons/favicon-32x32.png')}/>
+                        <link rel="icon" type="image/png" sizes="16x16"
+                              href={require('./favicons/favicon-16x16.png')}/>
+                        <link rel="manifest" href={require('./favicons/site.webmanifest')}/>
+                    </Helmet>
                     <MenuHeader/>
                     <OSBody background={BG}>
                         {
