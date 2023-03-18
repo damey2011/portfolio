@@ -7,7 +7,7 @@ function OsBody(props) {
 
     return (
         <div className="pt-12 md:pt-6 h-screen w-screen fixed"
-             style={{backgroundImage: `url(${props.background})`}}>
+             style={{backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.75)), url(${props.background})`}}>
             <div className="absolute top-0 right-0 mt-16 md:mt-8 w-screen flex-wrap flex md:justify-end">
                 <DesktopIcon name="About Me" link="/about" icon="fas fa-user"/>
                 <DesktopIcon name="Experience" link="/experience" icon="fas fa-toolbox"/>

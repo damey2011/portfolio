@@ -2,7 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.min.css';
 import './base.scss';
 import './App.scss';
-import BG from './img/bg1.jpg';
+import BG from './img/bg-new-2.jpg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import MenuHeader from "./components/MenuHeader";
 import OSBody from "./components/OSBody";
