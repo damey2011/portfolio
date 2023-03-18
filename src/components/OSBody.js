@@ -2,10 +2,8 @@ import React from 'react';
 import DesktopIcon from "./DesktopIcon";
 
 function OsBody(props) {
-    let embed_google_doc_resume = 'https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2Fe%2F2PACX-1vT-GXRBX' +
-        'IJFq5kQexMN4j7mnZMOndCbrStqDDWmf_4LNINN9_uiTH4ZgSGCrOzJ676vGfo1hgOpRPsw%2Fpub%3Fembedded%3Dtrue';
-    let browse_resume = 'https://docs.google.com/document/d/e/2PACX-1vT-GXRBXIJFq5kQexMN4j7mnZMOndCbrStqDDWmf_4LNI' +
-        'NN9_uiTH4ZgSGCrOzJ676vGfo1hgOpRPsw/pub';
+    let embed_google_doc_resume = 'https://drive.google.com/file/d/15gVpbi4JDR2NovM-S1zJkxc6n9Ss5CzT/preview';
+    let browse_resume = 'https://drive.google.com/file/d/15gVpbi4JDR2NovM-S1zJkxc6n9Ss5CzT/view';
 
     return (
         <div className="pt-12 md:pt-6 h-screen w-screen fixed"

@@ -1,6 +1,6 @@
 import React from 'react';
 import Window from "../components/Window";
-import IMG from '../img/personal.png';
+import IMG from '../img/LinkedIn.jpg';
 
 function About(props) {
     return (
@@ -17,24 +17,37 @@ function About(props) {
                             </div>
                         </div>
                         <div className="md:ml-12 flex-1 text-center md:text-left">
-                            <h2 className="text-2xl text-writing-primary">Damilola Adeyemi</h2>
-                            <div className="tracking-wide uppercase text-writing-secondary mt-2">Software Developer
+                            <h2 className="text-2xl text-writing-primary">Damilola Nifemi
+                                Adeyemi</h2>
+                            <div className="tracking-wide uppercase text-writing-secondary mt-2">
+                                Senior Backend Developer
                             </div>
                             <div className="mt-2">
                                 <p className="pb-3">
-                                    I'm a software developer who is passionate about writing tested and DRY code.
+                                    I'm a software developer who is passionate about building
+                                    maintainable and scalable systems.
                                 </p>
-                                <p className="text-sm border-t-2 border-gray-300 pt-3">
-                                    I have more than 5-years of software development experience working on usable,
-                                    scalable, and
-                                    maintainable software applications in startup environments. My strongest skills are
-                                    in
-                                    Python (Django) and Javascript (React/VueJS). I can work on projects with unclear
-                                    specifications
-                                    and make them marketable.
-                                </p>
+                                <div className="text-sm border-t-2 border-gray-300 pt-3">
+                                    <p className="mb-3">I have more over 7-years of software development
+                                        experience working on usable,
+                                        scalable, and maintainable software applications in both
+                                        fast-paced and steady-paced environments.
+                                    </p>
+                                    <p className="mb-3">Well vast in building systems in microservice
+                                        architecture.
+                                    </p>
+                                    <p className="mb-3">Having also worked remotely for over 5 years
+                                        in distributed teams, I have great abipty to
+                                        communicate and work in a distributed team.
+                                    </p>
+                                    <p className="mb-3">AWS x Terraform for managing cloud infrastructure.</p>
+                                    <p className="mb-3">Passion for solving complex problems and depvering
+                                        timely solutions.
+                                    </p>
+                                </div>
                                 <p className="my-5">
-                                    <a href="https://github.com/damey2011" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://github.com/damey2011" target="_blank"
+                                       rel="noopener noreferrer"
                                        className="px-4 py-2 bg-back-secondary hover:bg-back-primary hover:border-back-secondary border-2 hover:text-gray-300">
                                         <span className="mr-2 fab fa-github"/>
                                         Check me on Github

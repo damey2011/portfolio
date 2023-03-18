@@ -5,6 +5,26 @@ import Work from "../components/Work";
 const Experience = () => {
     const experiences = [
         {
+            place: 'Sennder GmBh',
+            designation: 'Senior Backend Engineer',
+            time: 'January 2021 - Present',
+            color: 'purple',
+            description: `
+                <ul class="list-disc pl-8">
+                    <li>Migrate monolith application to event based microservice architecture using Kafka.</li>
+                    <li>Migrating Authentication/Authorization to dedicated identity service provider.</li>
+                    <li>Designing and architecting new solutions to business problems/ requirements.</li>
+                    <li>Conduct interviews for potential new colleagues.</li>
+                    <li>Mentoring to junior engineers.</li>
+                    <li>Driving small to large size epics to successful completion.</li>
+                </ul>
+            `,
+            tags: [
+                'python', 'django', 'fastapi', 'AWS', 'docker', 'node', 'javascript', 'vuejs',
+                'fastify', 'kafka', 'datadog', 'terraform'
+            ]
+        },
+        {
             place: 'Cloud Custom Solutions',
             designation: 'Software Developer',
             time: 'May 2018 - August 2020',

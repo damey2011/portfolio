@@ -1,6 +1,6 @@
 import React from 'react';
 import Window from "../components/Window";
-import ME from '../img/personal.png'
+import ME from '../img/LinkedIn.jpg'
 
 const Contact = () => {
     return (
@@ -9,14 +9,14 @@ const Contact = () => {
                 <div className="w-full lg:w-1/2vw p-5">
                     <div className="w-full font-sans flex flex-col mt-8">
                         <div className="relative bg-blue-500">
-                            <div className="absolute bottom-0 w-1/3 ml-8 -mb-12 flex">
-                                <div className="flex flex-col">
+                            <div className="absolute bottom-0 w-1/3 ml-8 flex" style={{bottom: "-100px"}}>
+                                <div className="flex flex-col" style={{maxWidth: "250px", height: "auto"}}>
                                     <img src={ME} alt={'Dami'}/>
                                 </div>
                             </div>
                             <div className="w-full p-4 flex items-center justify-end">
                                 <div className="w-1/2 text- white">
-                                    <p className="text-3xl font-bold">Damilola Adeyemi</p>
+                                    <p className="text-3xl font-bold">Damilola Nifemi Adeyemi</p>
                                     <p className="py-2">
                                         <i className="fas fa-map-marker-alt mr-2"/>
                                         Lagos, Nigeria (NG)
