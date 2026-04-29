@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "postchef",
+    "title": "PostChef",
+    "subtitle": "mypostchef.com",
+    "description": "An AI-powered publishing platform for creators who generate content faster than they can publish. PostChef turns rough ideas and brain-dumps into polished, on-brand posts by learning from your historical writing and applying customizable voice presets. Approval-first, so the creator stays in control. Currently shipping for X, with Instagram and TikTok next.",
+    "link": "https://mypostchef.com",
+    "tags": ["AI", "LLMs", "creator tools", "voice modeling", "founder"],
+    "images": []
+  },
+  {
+    "slug": "cinekick",
+    "title": "Cinekick",
+    "subtitle": "cinekick.com",
+    "description": "Discover movies, concerts and live experiences — and find people to go with. Cinekick connects you with your perfect movie-going match so you never miss a premiere alone again.",
+    "link": "https://cinekick.com",
+    "tags": ["social", "discovery", "movies", "events"],
+    "images": []
+  }
+]

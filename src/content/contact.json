@@ -1,0 +1,12 @@
+{
+  "name": "Damilola Nifemi Adeyemi",
+  "role": "Senior Backend Engineer",
+  "location": "Lagos, Nigeria",
+  "email": "adeyemidamilola3@gmail.com",
+  "phone": "+2348132998236",
+  "links": [
+    { "label": "GitHub", "href": "https://github.com/damey2011" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/in/nifemi" },
+    { "label": "Twitter", "href": "https://twitter.com/theoluwanifemi" }
+  ]
+}

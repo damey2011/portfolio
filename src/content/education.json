@@ -1,0 +1,18 @@
+[
+  {
+    "place": "Federal University of Lagos",
+    "designation": "M.Sc Computer Science",
+    "time": "March 2019 — December 2020",
+    "accent": "#ff9500",
+    "summary": "Thesis based on the application of reinforcement learning in the financial market.",
+    "tags": ["reinforcement learning", "machine learning", "deep learning"]
+  },
+  {
+    "place": "Federal University of Agriculture, Abeokuta",
+    "designation": "B.Sc Computer Science",
+    "time": "August 2012 — December 2016",
+    "accent": "#0a84ff",
+    "summary": "Mobile agents for interbank cheque clearing.",
+    "tags": ["mobile agents", "java", "research"]
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "place": "Usersnap GmbH — Linz, Austria (Remote)",
+    "designation": "Senior Backend Engineer",
+    "time": "May 2024 — Present",
+    "accent": "#bf5af2",
+    "bullets": [
+      "Architected a production AI platform on AWS ECS, Amazon Bedrock and LangChain, delivering deterministic and auditable LLM workflows.",
+      "Re-architected the CI/CD pipeline by replacing a legacy Codeship setup with GitHub Actions backed by AWS CodeBuild runners — more reliable, scalable and auditable build/deploy workflows across environments.",
+      "Founded an internal Engineering TEDx series to promote technical knowledge sharing across the team. Proactively introduced AI topics early in the trend cycle to build foundational understanding among engineers.",
+      "Leading the design and implementation of an MCP server enabling agentic integrations over existing customer data — secure, structured interfaces that let AI agents query and act on internal systems reliably."
+    ],
+    "tags": ["python", "aws", "ecs", "bedrock", "langchain", "mcp", "github actions", "codebuild", "leadership"]
+  },
+  {
+    "place": "PressOne Africa — Lagos, Nigeria",
+    "designation": "Interim Head of Engineering",
+    "time": "October 2023 — September 2024",
+    "accent": "#0a84ff",
+    "bullets": [
+      "Deployed and operated a production Kubernetes cluster supporting scalable service deployments.",
+      "Designed and maintained a reusable, semantically-versioned Helm chart and migrated legacy services onto it.",
+      "Built and documented a domain-focused SIP client distributed via npm, used across five PressOne call clients.",
+      "Created reusable GitLab CI pipeline templates to standardize and automate service deployments.",
+      "Oversaw and mentored 16 engineers across four cross-functional teams.",
+      "Led the development of a new telephony platform integrating FreeSWITCH and migrating 3,000+ active businesses.",
+      "Conducted regular 1:1s to review performance, growth, and technical direction."
+    ],
+    "tags": ["kubernetes", "helm", "gitlab ci", "freeswitch", "sip", "node", "leadership", "telephony"]
+  },
+  {
+    "place": "Sennder GmbH — Berlin, Germany (Remote)",
+    "designation": "Senior Software Engineer",
+    "time": "January 2021 — September 2023",
+    "accent": "#34c759",
+    "bullets": [
+      "Led the design, documentation, and implementation of a new Authentication and Authorization system tailored to specific business use-cases — including seamless migration of 100k+ users from legacy systems with zero downtime.",
+      "Contributed to terraform infrastructure-as-code to improve overall stability of the Sennder tech ecosystem.",
+      "Collaborated with the product team to identify onboarding problems and reduce churn rate by 43% within 3 months.",
+      "Wrote services, internal libraries and lambda functions in Node.js and Python to solve business and engineering challenges, contributing to ~30 project repositories company-wide including external teams' projects.",
+      "Conducted 50+ technical interviews across system design, software skills, and fundamental coding."
+    ],
+    "tags": ["python", "node", "django", "fastapi", "AWS", "terraform", "kafka", "datadog", "auth"]
+  },
+  {
+    "place": "Cloud Custom Solutions",
+    "designation": "Software Developer",
+    "time": "May 2018 — August 2020",
+    "accent": "#ff9500",
+    "bullets": [
+      "Improved page latencies by up to 100% by optimizing database queries on the backend.",
+      "Helped the team speed up development by writing reusable base codes on the backends and optimal components on the frontend.",
+      "Managed infrastructure and system scaling on Google Cloud Platform for the applications."
+    ],
+    "tags": ["python", "django", "google cloud platform", "app engine", "docker", "node", "javascript", "vuejs", "nginx", "postgres", "git"]
+  },
+  {
+    "place": "Javelin Nigeria",
+    "designation": "Software Developer",
+    "time": "March 2019 — July 2020",
+    "accent": "#30d158",
+    "bullets": [
+      "Modified the software systems to enhance performance.",
+      "Grew customer base from 0 users to over 290.",
+      "Improved the app's usability by improving the application flow."
+    ],
+    "tags": ["nginx", "python", "django", "git", "linux", "celery", "javascript", "jquery", "postgres"]
+  },
+  {
+    "place": "Senseandserve Ilorin",
+    "designation": "Full Stack Developer",
+    "time": "August 2017 — May 2018",
+    "accent": "#ffcc02",
+    "bullets": [
+      "Worked on prototypes of applications for pitching.",
+      "Integrated tools and services such as the United States Postal Service and PayPal into products.",
+      "Oversaw deployment, configuration, and documentation procedures of a Trading Application, Prototype Banking Software, and Facial Recognition–based Authentication System."
+    ],
+    "tags": ["face recognition", "python", "django", "jquery", "javascript", "nginx", "mysql", "postgres"]
+  },
+  {
+    "place": "Freelance",
+    "designation": "Full Stack Developer",
+    "time": "January 2016 — July 2017",
+    "accent": "#5e5ce6",
+    "bullets": [
+      "Consulted for clients to provide technical advice and support on building their applications.",
+      "Worked in various capacities ranging from backend development to infrastructure and desktop applications.",
+      "Communicated with customers about progress updates, gathered feedback, and resolved specific issues."
+    ],
+    "tags": ["Java", "flask", "nginx", "supervisor", "celery", "django", "angular", "JavaFX", "PHP", "redis", "selenium"]
+  },
+  {
+    "place": "Adeyemi College of Education",
+    "designation": "Software Development Intern",
+    "time": "July 2015 — December 2015",
+    "accent": "#ff375f",
+    "bullets": [
+      "Worked alongside a team of developers to scale a school portal incorporating result processing, fees payment, and payment verification.",
+      "Built a desktop software solution for managing departmental records using Java, improving efficiency."
+    ],
+    "tags": ["Java", "JSF", "Spring Boot", "JavaFX", "Maven"]
+  }
+]
